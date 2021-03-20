@@ -15,4 +15,4 @@ function myFunction(myObj) {
 
 // Only change code above this line
 console.log(myFunction(myClothes)); // Change this line
-module.exports = { myClothes, myFunction };
+module.exports = myFunction(myClothes);
